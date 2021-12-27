@@ -50,7 +50,7 @@ public class Main {
                                     System.out.println("You: " + (int)playerCards);
 
                                     while(true) {
-                                        if (!(dealerCards < 16.0D)) {
+                                        if (!(dealerCards < 17.0D)) {
                                             break label65;
                                         }
 
@@ -59,7 +59,7 @@ public class Main {
                                 }
 
                                 if (playerMove.equals("q")) {
-                                    run = false;
+                                    System.exit(0);
                                 }
                             }
                         }
