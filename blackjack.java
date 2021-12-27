@@ -1,3 +1,8 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by FernFlower decompiler)
+//
+
 package com.blackjack;
 
 import java.util.Scanner;
@@ -33,11 +38,11 @@ public class Main {
                     Scanner scanner = new Scanner(System.in);
                     String playerMove = "y";
 
-                    label65:
+                    label67:
                     while(true) {
                         while(true) {
                             if (!playerMove.equals("y") || !(playerCards < 21.0D)) {
-                                break label65;
+                                break label67;
                             }
 
                             System.out.print("Hit? (y, n): ");
@@ -51,7 +56,7 @@ public class Main {
 
                                     while(true) {
                                         if (!(dealerCards < 17.0D)) {
-                                            break label65;
+                                            break label67;
                                         }
 
                                         dealerCards = dealerCards + (double)Math.round(Math.random() * 8.0D) + 2.0D;
